@@ -32,5 +32,5 @@ GuestUser/NullUser design pattern:
 
 ## Credits
 
-- [Sargilla][link-author]
+- [Sargilla]
 
