@@ -12,7 +12,13 @@ $ composer require sargilla/user
 
 ## Uso
 
-- Importar la Clase:
+- Agregar el provider en config/app.php
+```php
+	Sargilla\User\Providers\GuestUserServiceProvider::class,
+```
+- La variable $logueado ($user->check()) y el objeto "user" estaran disponibles en todas las vistas
+
+- Si no hay un usuario creado lo crea para evitar la excepción. 
 
 ## Testing
 
