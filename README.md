@@ -2,7 +2,7 @@
 
 Clase de Usuario para Laravel
 
-## Installation
+## Instalacion
 
 Via Composer
 
@@ -10,9 +10,9 @@ Via Composer
 $ composer require sargilla/user
 ```
 
-## Usage
+## Uso
 
-
+- Importar la Clase:
 
 ## Testing
 
@@ -20,17 +20,17 @@ $ composer require sargilla/user
 $ composer test
 ```
 
-## Security
+## Seguridad
 
-If you discover any security related issues, please email sargilla@gmail.com instead of using the issue tracker.
+Si encuentra problemas de seguridad envie un correo a sargilla@gmail.com
 
-## Based on 
-
-GuestUser/NullUser design pattern:
+## Basado en 
+Laracasts design patterns:
 - https://laracasts.com/series/whip-monstrous-code-into-shape
 - https://laracasts.com/series/whip-monstrous-code-into-shape/episodes/19
 
-## Credits
+## Creditos
 
-- [Sargilla]
+Santiago Argilla sargilla@gmail.com
+
 

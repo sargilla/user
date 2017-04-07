@@ -19,7 +19,7 @@ class GuestUser
      */
     public function handle($request, Closure $next)
     {
-        view()->share('signedIn', auth()->check());
+        view()->share('logueado', auth()->check());
         view()->share('user', auth()->user() ?: new \Sargilla\User\GuestUser);
         return $next($request);
     }
